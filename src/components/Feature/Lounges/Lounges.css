@@ -2,3 +2,56 @@
   display: flex;
   flex-direction: column;
 }
+
+.window {
+  display: flex;
+}
+
+.lounge-list{
+  width: 25%;
+}
+
+.details {
+  background-color: orange;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+  font-size: 20px;
+
+}
+
+.lounge-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: left;
+}
+
+.lounge-details h3{
+  width: 100%;
+}
+
+.lounge-details p {
+   width: 95%;
+}
+
+.cityChoose {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.feed {
+  border: solid 2px;
+  width: 15%;
+  margin-left: 20px;
+  font-size: 15px;
+  height: 50vh;
+}
+
+.feed div {
+  padding: 10px;
+}
+
+.feed > div:nth-of-type(odd) {
+  background-color: #dacfd5;
+}
